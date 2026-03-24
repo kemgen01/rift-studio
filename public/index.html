@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rift Studio - Premium Minecraft Plugins</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="bg-animation">
+        <div class="bg-grid"></div>
+        <div class="bg-glow bg-glow-1"></div>
+        <div class="bg-glow bg-glow-2"></div>
+        <div class="bg-particles" id="particles"></div>
+    </div>
+    
+    <!-- Toast Notifications -->
+    <div id="toast-container" class="toast-container"></div>
+    
+    <!-- Security Overlay (Anti-Inspect) -->
+    <div id="security-overlay" class="security-overlay hidden">
+        <div class="security-warning">
+            <i class="fa-solid fa-shield-halved"></i>
+            <h3>Güvenlik Uyarısı</h3>
+            <p>Geliştirici araçları tespit edildi. Oturum güvenliği için sayfa yenileniyor...</p>
+        </div>
+    </div>
+    
+    <!-- Main Application -->
+    <div id="app"></div>
+
+    <!-- Application Script -->
+    <script src="app.js"></script>
+</body>
+</html>
